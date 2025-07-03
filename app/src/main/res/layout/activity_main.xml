@@ -21,7 +21,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.16000003" />
 
-<!--    -->
 
     <LinearLayout
         android:id="@+id/numberContainer"
@@ -38,7 +37,8 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Base:" />
+            android:text="Base:"
+            android:fontFamily="cursive"/>
 
         <EditText
             android:id="@+id/editText"
